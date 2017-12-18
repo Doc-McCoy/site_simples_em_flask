@@ -26,17 +26,11 @@
 
         <div class="container">
 
-            <div class="row">
-                Primeiro comentário, otário!
-            </div>
-
-            <div class="row">
-                Segundo comentário, otário!
-            </div>
-
-            <div class="row">
-                Terceiro comentário, otário!
-            </div>
+            {% for comment in comments %}
+                <div class="row">
+                    {{ comment }}
+                </div>
+            {% endfor %}
 
             <div class="row">
                 <form action="." method="POST">
