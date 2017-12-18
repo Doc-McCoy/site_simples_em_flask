@@ -1,2 +1,3 @@
 # site_simples_em_flask
-Site simples em Flask com interações em banco de dados
+Site simples em Python, utilizando o framework Flask.
+Com interações em banco de dados.
